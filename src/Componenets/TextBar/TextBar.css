@@ -16,7 +16,7 @@ h1, h2 {
 }
 
 .TextBar {
-  margin-bottom: 20px;
+  margin-bottom: 19px;
 }
 
 .TextBar input {
@@ -42,13 +42,13 @@ h1, h2 {
 
 @media screen and (max-width: 600px) {
   .TextBar button {
-    font-size: 14px; 
+    font-size: 11px; 
   }
 }
 
 @media screen and (max-width: 400px) {
   .TextBar button {
-    padding: 8px; 
+    padding: 7px; 
   }
 }
 
