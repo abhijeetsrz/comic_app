@@ -30,7 +30,7 @@ const TextBar = ({ onGenerateComic, isDisabled, isLoading }) => {
         </div>
       ))}
       <button onClick={handleGenerateComic} disabled={isDisabled}>
-        {isLoading ? 'Generating...' : 'Generate Comic'}
+        {isLoading ? 'Generating...' : 'Generate'}
       </button>
     </div>
   );
