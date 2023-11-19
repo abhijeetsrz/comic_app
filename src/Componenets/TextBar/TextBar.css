@@ -40,6 +40,18 @@ h1, h2 {
   transition: background-color 0.3s;
 }
 
+@media screen and (max-width: 600px) {
+  .TextBar button {
+    font-size: 14px; 
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .TextBar button {
+    padding: 8px; 
+  }
+}
+
 .TextBar button:disabled {
   background-color: #ddd;
   cursor: not-allowed;
