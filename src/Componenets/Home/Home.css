@@ -1,0 +1,27 @@
+/* Add this CSS code to your stylesheet or style section in your React component */
+
+.main-container {
+    display: flex;
+    height: 100vh;
+  }
+  
+  .container-1 {
+    width:calc(30%); 
+    /* background-color: #f0f0f0; */
+    background-color: #e9e9e9;
+    padding: 20px; 
+    
+  }
+  
+  .container-2 {
+    width: calc(70%);
+    /* background-color: #ffffff; */
+    background-color: rgba(255, 255, 255, 1);
+    background-blend-mode:luminosity;
+    padding: 20px;
+    overflow: scroll;
+    background-image: url('../../Assets/image4.jpg');
+    background-size: cover;
+  }
+  
+  

@@ -1,0 +1,44 @@
+/* Add this to your CSS file (ComicBar.css) or include it in your existing CSS */
+
+.ComicBar {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1px;
+  }
+  
+  .ComicImage {
+    max-width: 100%;
+    max-height: 300px; /* Set your desired maximum height */
+    margin: 10px;
+    box-sizing: border-box;
+    overflow: hidden;
+  }
+
+  .DownloadButton {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    margin-left: 45px;
+  }
+  
+  .DownloadButton button {
+    padding: 10px;
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .DownloadButton button:hover {
+    background-color: #45a049;
+  }
+  
+  /* Optional: Add media queries for better responsiveness on smaller screens */
+  @media screen and (max-width: 300px) {
+    .ComicImage {
+      max-height: 100px; /* Adjust the maximum height for smaller screens */
+    }
+  }
+  
